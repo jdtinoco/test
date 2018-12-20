@@ -1,27 +1,27 @@
 {
-  "posts": [
+  "usr": [
     {
       "id": 1,
-      "title": "Post 1"
+      "name": "usr1"
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "name": "usr2"
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "name": "usr3"
     }
   ],
-  "comments": [
+  "groups": [
     {
       "id": 1,
-      "body": "comment1",
+      "group": "group1",
       "postId": 1
     },
     {
       "id": 2,
-      "body": "comment2",
+      "group": "group2",
       "postId": 1
     }
   ],

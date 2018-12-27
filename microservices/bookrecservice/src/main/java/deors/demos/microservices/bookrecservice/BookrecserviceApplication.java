@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@org.springframework.cloud.client.discovery.EnableDiscoveryClient
+
 public class BookrecserviceApplication {
 
 	public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class BookrecserviceApplication {
 	}
 
 }
-@org.springframework.cloud.client.discovery.EnableDiscoveryClient
+
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -52,5 +54,3 @@ public class BookController {
         return bookRepository.getBooksRandomOrder().get(0);
     }
 }
-
-

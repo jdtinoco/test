@@ -14,7 +14,7 @@ public class BookrecedgeserviceApplication {
         SpringApplication.run(BookrecedgeserviceApplication.class, args);
     }
 
-    @Bean
+    @org.springframework.context.annotation.Bean
     @org.springframework.cloud.client.loadbalancer.LoadBalanced
     RestTemplate restTemplate() {
         return new RestTemplate();
